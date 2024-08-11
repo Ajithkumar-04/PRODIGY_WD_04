@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav id="desktop-nav">
+            <div class="logo">
+                AJITHKUMAR P R
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Internship">Internship</a></li>
+                <li><a href="#Research and Projects">Research and Projects</a></li>
+                <li><a href="#Publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">
+                AJITHKUMAR P R
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Research and Projects"></a>Research and Projects</li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>    
+            </div>
+        </nav>
+    </header>
+    <section id="profile">
+        <div class="section__text">
+            <h4 class="section__text__p1">Hello,  I'm</h4>
+            <h1 class="title">AJITHKUMAR P R</h1>
+            <p class="section__text__p2">Electronics and communication Engineer</p>
+            <div class="btn-container">
+                <button 
+                  class="btn btn-color-2"
+                  onclick="window.open('My Resume.pdf')"
+                >
+                    Download CV
+                </button>
+                <button 
+                  class="btn btn-color-1"
+                  onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                  src="linkedin.png" 
+                  alt="linkdin profile"
+                  onclick="location.href='https://www.linkedin.com/in/ajith-kumar-554b9522b'"
+                  class="icon">
+                <img 
+                  src="github.png" 
+                  alt="github profile"
+                  onclick="location.href='https://github.com/Ajithkumar-04'"
+                  class="icon"
+                  >  
+            </div>
+        </div>
+        <div class="section__pic-container">
+          <img src="ak image.jpg" alt="Ajith's profile pic">
+      </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="experience.png" alt="Experience icon" class="icon">
+                        <h3>Schooling</h3>
+                        <p>10th and 12th<br /> Kamarajar Matric Hr sec School, Namakkal<br /> 10 (SSLC) - 95.4%<br /> 12 (HSC) - 93.7%</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="education.png" alt="Experience icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.E - ECE(final Year) <br> Easwari Enginnering College, Chennai<br /> CGPA - 8.5</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I am a dedicated and motivated final-year student
+                         pursuing a Bachelor of Engineering (B.E) in Electronics
+                          and Communication Engineering. Throughout my academic journey, I have 
+                          gained a comprehensive understanding of core concepts in electronics, 
+                          communication systems, digital signal processing, microprocessors, and embedded systems.
+                         Additionally, I have developed hands-on experience with web development 
+                         technologies such as HTML, CSS, Python, java.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="Internship">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Internship</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="NSIC.png" alt="Project 1" class="project-img">
+                    </div>
+                    <p class="experience-sub-title project-title">As a Second-year Electronics and Communication Engineering (ECE) student, I have
+                      successfully completed several projects at the National Small Industries 
+                      Corporation (NSIC) that focused on the Internet of Things (IoT) using 
+                      Raspberry Pi. These projects have allowed me to gain practical experience 
+                      and deepen my understanding of IoT technologies, sensor integration, data 
+                      acquisition, and processing, as well as network communication
+</p>
+                 <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('NSIC Report.pdf')">Report</button>
+                        
+                    </div>   
+                </div>
+                
+<br>
+                
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="Rawone.jpg" alt="Project 3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">
+                      <br>
+                      As a final-year Electronics and Communication Engineering (ECE) student, 
+                      I had the opportunity to collaborate with RawOne Aerospace on a cutting-edge 
+                      project focused on disaster management. This project involved using drones equipped 
+                      with autonomous navigation systems to enhance real-time disaster response and 
+                      mitigation efforts.
+                    </h2>
+                      <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('exaple.pdf')"">Report</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <br />
+    <br />
+    <br />
+    <section id="Research">
+        <div id="Research-container">
+            <h1 class="title">Research and Projects</h1>
+            <br />
+            <div class="Research-1-container">
+                <h3>“DESIGNED A FAST RIPPLE CARRY ADDER USING PIPELINING IN 
+                    VIVADO”</h3>
+                <ul class="research-sub-title project-title">
+                    <li>Used fine grain pipelining techniques to try reduce the time delay and power 
+                    consumption</li>
+                    <li>Created a Ripple Carry Adder with total delay of 4.68ns in Vivado</li>
+</ul>
+             
+            </div>
+            <br />
+            <div class="Research-1-container">
+                <h3>“SIMULATED AN OPTIMIZED FAST FOURIER TRANSFORM IN VIVADO”
+                </h3>
+                <ul class="research-sub-title project-title">
+                    <li>Simulated an optimized FFT VerilogHDL algorithm in Vivado.
+                    </li>
+                    <li>Got a total time delay of 4.076ns on Vivado.</li>
+</ul>
+             
+            </div>
+            <br />
+            <div class="Research-1-container">
+                <h3>“MARINE MARGIN TECHNIQUE”
+                </h3>
+                <ul class="research-sub-title project-title">
+                    <li>Designed a system using embedded systems which protects the fishermen by notifying the 
+                        country border to them by using GPS and LoRa module. Participated in SRM Institutions 
+                        Project Day 2k23
+                        
+                    </li>
+                    
+</ul>
+             
+            </div>
+        </div>
+    </section>
+    <section id="Publication">
+        <div id="Publication-container">
+            <h1 class="title">Publications</h1>
+            <br />
+            <div class="Publications-1-container">
+                <h3>Deepan Kumaar A., Ajithkumar P.R., Giriprasath T.K., Senthamizh Selvi R, “An
+                    Optimized Fast Fourier Transform Implementation using Multiplexer”, International 
+                    Conference on Multidisciplinary Innovations in Computing and Communication 2024.</h3>
+                    <ul class="publications-sub-title project-title">
+                        <li>It has been awarded the best paper award for “Communication and Signal processing” 
+                            track at the International Conference on Multidisciplinary Innovations in Computing 
+                            and Communication 2024 (ICMICC’24).
+                            
+                        </li>
+                        <li>Used Fine Grain Pipelining Techniques to try reducing the time delay and power 
+                            consumption.</li>
+            </div>
+            <br />
+            <div class="Publications-2-container">
+                <h3>Deepan Kumaar A., Ajithkumar P.R., Giriprasath T.K., Senthamizh Selvi R, “A Fast Ripple 
+                    Carry Adder Using Pipelining”, Insubmission 2024</h3>
+                    <ul class="publications-sub-title project-title">
+                        <li>Designed a faster ripple carry adder in Vivado using Verilog HDL
+
+                            
+                        </li>
+                        <li>Used Fine Grain Pipelining Techniques to try reducing the time delay and power 
+                            consumption</li>
+                        <li>Created a Ripple Carry Adder with total delay of 4.6
+                        </li>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" onclic >
+                <p><a href="mailto:examplemail@gmail.com">ajithkumarraja004@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href='https://www.linkedin.com/in/ajith-kumar-554b9522b'>LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav id="desktop-nav">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Internship">Internship</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>Copyright &#169; 2024 Ajithkumar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
